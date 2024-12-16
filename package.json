@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.3",
+    "@types/node": "^22.10.2"
+  }
+}
