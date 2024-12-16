@@ -1,4 +1,11 @@
 {
+  "name": "random-number-mcp",
+  "version": "0.1.0",
+  "description": "An MCP server that generates random numbers",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\""
+  },
   "devDependencies": {
     "@modelcontextprotocol/sdk": "^1.0.3",
     "@types/node": "^22.10.2"
